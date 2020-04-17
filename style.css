@@ -60,13 +60,20 @@
   width: 1000px;
 }
 
-.form {
-  margin-left: 100px;
-  width: 500px;
+.line {
+  border-left: 10px solid grey;
+  height: 100vh;
+  margin: 0 auto;
 }
 
 .line {
   border-left: 10px solid grey;
   height: 100vh;
+  width: 0px;
   margin: 0 auto;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
