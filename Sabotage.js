@@ -15,9 +15,7 @@ function getcreditinfo(e) {
 
   const number = document.querySelector("#number");
   if (number.value.length != 16) {
-    alert(
-      "Your credit card number must be exactly 16 digits, unless it's union pay. In that case fridge you"
-    );
+    alert("Your credit card number must be exactly 16 digits");
     return false;
   }
   const date = document.querySelector("#date");
