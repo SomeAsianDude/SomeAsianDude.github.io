@@ -21,19 +21,19 @@
   float: left;
 }
 
-#menu li {
+.nav-link {
   display: inline;
   text-align: center;
   padding-left: 30px;
   margin-left: 30px;
 }
 
-#menu li a {
+.nav-link {
   text-decoration: none;
   font-size: 20px;
 }
 
-#menu li a:hover {
+.nav-link:hover {
   color: gold;
 }
 
@@ -43,8 +43,7 @@
   margin-top: 18px;
 }
 
-#header {
-  height: 60px;
+.navbar {
   width: 100%;
   background-color: lightskyblue;
 }
@@ -63,12 +62,6 @@
 .line {
   border-left: 10px solid grey;
   height: 100vh;
-  margin: 0 auto;
-}
-
-.line {
-  border-left: 10px solid grey;
-  height: 100vh;
   width: 0px;
   margin: 0 auto;
 }
@@ -76,4 +69,18 @@
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media (max-width: 700px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+
+  .line {
+    border-bottom: 10px solid grey;
+    height: 0px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
 }
