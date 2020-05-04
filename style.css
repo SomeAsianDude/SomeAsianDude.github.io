@@ -84,3 +84,34 @@
     margin-bottom: 10px;
   }
 }
+
+body .card {
+  width: 150px;
+  border-right: 10px solid black;
+  padding: 5px;
+}
+
+.square {
+  height: 36px;
+  width: 37px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ssss {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 100px;
+}
+
+.ssss img {
+  width: 75%;
+}
+
+.grid-h-2 {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  grid-gap: 24px;
+}
