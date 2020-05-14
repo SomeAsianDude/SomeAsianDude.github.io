@@ -99,14 +99,14 @@ body .card {
   align-items: center;
 }
 
-.ssss {
+.image-container {
   display: flex;
   justify-content: center;
   align-items: flex-start;
   margin-top: 100px;
 }
 
-.ssss img {
+.image-container img {
   width: 75%;
 }
 
@@ -114,4 +114,36 @@ body .card {
   display: grid;
   grid-template-columns: 150px 1fr;
   grid-gap: 24px;
+}
+
+.image-container img {
+  border: 5px solid black;
+}
+
+.arrow1 {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.arrow2 {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 6px 6px 0;
+  display: inline-block;
+  padding: 3px;
+  margin: 3px;
+}
+
+.image-container {
+  max-width: 700px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlide {
+  display: none;
 }
