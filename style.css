@@ -123,11 +123,15 @@ body .card {
 .arrow1 {
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
+  right: 50%;
+  opacity: 100%;
 }
 
 .arrow2 {
   transform: rotate(135deg);
   -webkit-transform: rotate(135deg);
+  right: 50%;
+  opacity: 100%;
 }
 
 .arrow {
@@ -136,14 +140,27 @@ body .card {
   display: inline-block;
   padding: 3px;
   margin: 3px;
+  position: relative;
+  top: 100%;
 }
 
 .image-container {
   max-width: 700px;
-  position: relative;
-  margin: auto;
+  height: 300px;
+  margin: 0 auto;
+  margin-top: 100px;
+  background-color: blue;
 }
 
 .mySlide {
   display: none;
+}
+
+.mySlide img {
+  height: 300px;
+}
+
+.scammyfemaledog,
+.form {
+  margin-top: 100px;
 }
