@@ -1,0 +1,71 @@
+* {
+  margin: 0px;
+}
+
+*:focus {
+  outline: none;
+}
+
+.Web {
+  color: blue;
+}
+
+.Buy {
+  color: orange;
+}
+
+.logo-text {
+  font-size: 45px;
+  text-align: center;
+  margin-top: 0px;
+}
+
+#logo,
+#menu {
+  float: left;
+}
+
+.nav-link {
+  display: inline;
+  text-align: center;
+  padding-left: 30px;
+  margin-left: 30px;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.nav-link:hover {
+  color: gold;
+}
+
+#menu ul {
+  width: 100%;
+  text-align: center;
+  margin-top: 18px;
+}
+
+.navbar {
+  width: 100%;
+  background-color: lightskyblue;
+}
+
+.searchbar {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 70%;
+  margin-left: 20px;
+  height: 36px;
+}
+
+body .row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.card img {
+  width: 150px;
+  margin: 10px;
+}

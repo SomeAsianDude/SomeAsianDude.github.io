@@ -48,17 +48,6 @@
   background-color: lightskyblue;
 }
 
-.search input[type="text"] {
-  padding: 6px;
-  border: none;
-  margin-top: 14px;
-  margin-right: 16px;
-  font-size: 17px;
-  float: left;
-  margin-left: 100px;
-  width: 1000px;
-}
-
 .line {
   border-left: 10px solid grey;
   height: 100vh;
