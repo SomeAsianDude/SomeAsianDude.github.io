@@ -69,3 +69,25 @@ body .row {
   width: 150px;
   margin: 10px;
 }
+
+.card-body {
+  display: flex;
+}
+
+.yeett {
+  margin-left: auto;
+  display: flex;
+  height: 36px;
+}
+
+.Buy222 {
+  margin-left: 30px;
+}
+
+.box {
+  height: 36px;
+  width: 37px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
