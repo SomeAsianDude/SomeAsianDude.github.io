@@ -75,9 +75,13 @@ body .row {
 }
 
 .yeett {
-  margin-left: auto;
   display: flex;
   height: 36px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 90px;
 }
 
 .Buy222 {
@@ -90,4 +94,12 @@ body .row {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.pack {
+  margin-bottom: 10px;
+}
+
+.flex-row {
+  display: flex;
 }
