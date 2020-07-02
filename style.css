@@ -158,17 +158,34 @@
 }
 
 .main-card {
-  width: 90vw;
-  height: 200px;
-  background-color: lightpink;
+  width: 85vw;
+  height: 230px;
+  background-color: green;
+  margin-top: 50px;
 }
 
 .sub-cardss .card {
   width: 300px;
+  margin-left: 10px;
+  flex-shrink: 0;
 }
 
 .sub-cardss .card img {
-  width: 90%;
-  height: 90%;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
+}
+
+.sub-cardss {
+  display: flex;
+  overflow-x: scroll;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.main-card p {
+  color: aqua;
+}
+.grid-h-2 {
+  background-color: black;
 }
